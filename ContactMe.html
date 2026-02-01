@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="ContactMe.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script defer src="app.js"></script>
+    <title>Contact Me</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+</head>
+<body>
+        <div class="navigation hidden">
+            <h2 style="color: white;">Bishal <span>Roy</span></h2>
+
+            <nav class="mainNav">
+                <a href="Home.html">Home</a>
+                <a href="AboutMe.html">About</a>
+                <a href="Projects.html">Projects</a>
+                <a href="#">Skills</a>
+                <span></span>
+            </nav>
+
+            <div class="hamburger">&#9776;</div>
+
+            <div class="contactMeBut">
+                <a class="#" href="#">Contact Me</a>
+                <span></span>
+            </div>
+        </div>
+
+
+
+        <div class="contactContainer">
+            <form class="contactLeft" id="contactForm" action="https://formspree.io/f/xqelkdeo" method="POST">
+                <div class="contactInput">
+                    <h2>Get In Touch!</h2>
+                    <hr>
+                    <input type="hidden" name="access_key" value="c0ce7e3c-0757-47e4-9e32-3b7d7ad078df">
+                    <input type="text" placeholder="Your Name" id="name" name="name" class="inputField" required>
+                    <input type="text" placeholder="Your Email" id="email" name="email" class="inputField" required>
+                    <textarea name="message" placeholder="Your Message" id="message" class="inputField" required></textarea>
+                    <button type="submit" id="sendBtn">Submit</button>
+                </div>
+            </form>
+
+            <div class="contactRight">
+                <iframe src='https://my.spline.design/untitled-EMwJm3pGq254ZOvLb9CR3kVF/' frameborder='0' width='100%' height='100%'></iframe>
+            </div>
+        </div>
+
+        <div class="footer hidden">
+            <h4>Created By Bishal Roy | @ 2025</h4>
+            <div class="footerContent">
+                <div class="socialLinksFooter">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-github"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                </div>
+
+                <div class="contactMeButFooter">
+                    <a class="#" href="ContactMe.html">Contact Me</a>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

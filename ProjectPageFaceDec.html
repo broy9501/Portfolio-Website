@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="ProjectPage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script defer src="app.js"></script>
+    <title>Project: Object Detection</title>
+</head>
+<body>
+        <div class="navigation hidden">
+            <h2 style="color: white;">Bishal <span>Roy</span></h2>
+
+            <nav class="mainNav">
+                <a href="Home.html">Home</a>
+                <a href="AboutMe.html">About</a>
+                <a href="Projects.html">Projects</a>
+                <a href="Skills.html">Skills</a>
+                <span></span>
+            </nav>
+
+
+            <div class="hamburger">&#9776;</div>
+
+            <div class="contactMeBut">
+                <a class="#" href="ContactMe.html">Contact Me</a>
+                <span></span>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="headingProject">
+                <!-- <img src="ChatGPT Image Jun 29, 2025, 05_28_20 PM.png" alt=""> -->
+                <div class="heading">
+                    <h3>Object Detection with YOLOv9</h3>
+                    <p>This project implements real-time object detection using a YOLOv9 model and a live webcam feed.</p><br>
+                    <a style="color:#fff; text-decoration: none;" href="https://github.com/broy9501/Object-Detection-with-YOLO">Github Link!</a>
+                </div>
+            </div>
+
+            <div class="contentRight">
+                <div class="rightHead">
+                    <h2 class="fadeText">Overview</h2>
+                </div>
+                <div class="stayRightContent beginning">
+                    <p>
+                        It detects objects only within a defined Region of Interest (ROI) instead of the entire frame, improving efficiency and allowing focused detection in specific areas of the scene. The system uses OpenCV for video capture and display and Ultralytics YOLOv9 for deep learning–based object detection.
+                    </p>
+                    <video width="320" height="240" controls>
+                        <source src="projectImages/bandicam 2026-01-31 00-46-13-314~2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="contentLeft">
+                <div class="leftHead">
+                    <h2 class="fadeText">Technologies</h2>
+                </div>
+                <div class="stayLeftContent">
+                    <p>
+                        • Python<br><br>
+                        • OpenCV<br><br>
+                        • Ultralytics YOLOv9<br><br>
+                        • Pre-trained YOLOv9 model (yolov9c.pt)<br><br>
+                    </p>    
+                    <img src="projectImages/Chair.png" alt="">
+                </div>
+            </div>
+            
+            <hr>
+
+            <div class="contentRight">
+                <div class="rightHead">
+                    <h2 class="fadeText">Features</h2>
+                </div>
+                <div class="stayRightContent">
+                    <p>
+                       • Real-time detection<br><br>
+                       • ROI-based processing<br><br>
+                       • Confidence thresholding<br><br>
+                       • Live visual feedback<br><br>
+                    </p>
+                    <div class="imgGroup">
+                        <img src="projectImages/person.png" alt="">
+                        <img src="projectImages/phone.png" alt="">
+                        <img src="projectImages/bottle.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="footer hidden">
+            <h4>Created By Bishal Roy | @ 2025</h4>
+            <div class="footerContent">
+                <div class="socialLinksFooter">
+                    <a href="https://www.instagram.com/broy_9501/?hl=en"><i class="fa fa-instagram"></i></a>
+                    <a href="https://github.com/broy9501"><i class="fa fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/bishal-roy-391924268/"><i class="fa fa-linkedin"></i></a>
+                </div>
+
+                <div class="contactMeButFooter">
+                    <a class="#" href="ContactMe.html">Contact Me</a>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>

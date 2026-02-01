@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <h1>HI MOM</h1>
+
+    <section class="hidden">
+        <h1>HI mam</h1>
+        <p>this is my website</p>
+    </section>
+
+    <section class="hidden">
+        <h1>HI mam</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nostrum cumque cupiditate cum, molestiae atque repellat rem accusamus perspiciatis placeat debitis rerum distinctio repudiandae voluptatum nisi fuga magnam ab! Vel.</p>
+    </section>
+
+    <section class="hidden">
+        <h1>ITS REALLY GOOD</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolorem aliquid, ratione nemo cumque exercitationem? Enim error sapiente eveniet, adipisci voassssssssssssssssssssssssssssss</p>
+    </section>
+</body>
+</html>
