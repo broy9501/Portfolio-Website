@@ -847,7 +847,7 @@ i {
 
 @media (min-width: 1280px) {
   .spline {
-    left: 3%;
+    left: 8%;
     width: 2000px;
     height: 600px;
     bottom: auto; /* Reset if needed */
