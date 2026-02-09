@@ -994,6 +994,10 @@ i {
     text-align: center;
   }
 
+   .contentRight img, .contentLeft img, .contentRight video, .contentLeft video{
+    left: 0;
+  }
+    
   .rightHead h2,
   .leftHead h2 {
     font-size: 20px;
