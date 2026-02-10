@@ -202,6 +202,12 @@ html{
 .skillsTitle h3{
     color: white;
     margin-top: 25px;
+    line-height: 30px;
+}
+
+.skill p{
+    color: white;
+    line-height: 30px;
 }
 
 .skillsTitle::after{

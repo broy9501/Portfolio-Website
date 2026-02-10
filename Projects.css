@@ -163,10 +163,12 @@ h1:after{
 
 .listOfProjects{
     display: grid;
-    grid-template-columns: repeat(3, 0fr);
+    /* grid-template-columns: repeat(3, 0fr); */
+    grid-template-columns: repeat(auto-fit, minmax(415px, 1fr));
     gap: 30px;
     position: relative;
-    left: 20px;
+    /* left: 20px; */
+    right: 25px;
     justify-items: center;
 }
 
