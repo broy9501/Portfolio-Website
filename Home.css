@@ -210,6 +210,7 @@ html{
 .recProj a{
     color: white;
     text-decoration: none;
+    line-height: 50px;
 }
 
 .recProj a:visited{
@@ -905,7 +906,8 @@ i {
 
 @media (max-width: 1280px) {
     .spline {
-        left: -120px;
+        left: 100px;
+        bottom: 0;
     }
 }
 
