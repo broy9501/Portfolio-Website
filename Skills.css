@@ -11,15 +11,17 @@ html{
     background: black;
 }
 ::-webkit-scrollbar-thumb{
-    background: linear-gradient(120deg, black, RGB(125, 18, 255));
+    /* background: linear-gradient(120deg, black, RGB(125, 18, 255)); */
+    background: transparent;
     border-radius: 10px;
 }
 
 .hidden{
     opacity: 0;
     filter: blur(5px);
-    transform: translateY(100%);
-    transition: all 1s;
+    transform: translateY(30px);
+    transition: all 0.4s ease-out;
+    will-change: transform, opacity;
 }
 
 .show{
@@ -161,8 +163,8 @@ html{
     content: "";
     position: absolute;
     left: 40%;
-    bottom: 0;
-    width: 19.8%;
+    bottom: 8px;
+    width: 19.5%;
     height: 2px;
     background: RGB(125, 18, 255);
     transition: width 0.5s ease-in-out;
@@ -188,6 +190,12 @@ html{
     padding: 1rem;
     color: white;
     cursor: pointer;
+    background: rgba(12, 1, 1, 0.4588235294117647);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.2px);
+    -webkit-backdrop-filter: blur(9.2px);
+    border: 1px solid rgba(255, 255, 255, 0.99);
 }
 
 .skillsTitle{
@@ -207,7 +215,8 @@ html{
 
 .skill p{
     color: white;
-    line-height: 30px;
+    line-height: 25px;
+    font-size: 15px;
 }
 
 .skillsTitle::after{
@@ -278,7 +287,7 @@ html{
 .socialLinksFooter a {
   color: white;
   margin: 0 10px;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   padding: 10px;
   border-radius: 50%;
   font-size: 18px;

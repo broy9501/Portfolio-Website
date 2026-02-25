@@ -11,15 +11,17 @@ html{
     background: black;
 }
 ::-webkit-scrollbar-thumb{
-    background: linear-gradient(120deg, black, RGB(125, 18, 255));
+    /* background: linear-gradient(120deg, black, RGB(125, 18, 255)); */
+    background: transparent;
     border-radius: 10px;
 }
 
 .hidden{
     opacity: 0;
     filter: blur(5px);
-    transform: translateY(100%);
-    transition: all 1s;
+    transform: translateY(30px);
+    transition: all 0.4s ease-out;
+    will-change: transform, opacity;
 }
 
 .show{
@@ -166,8 +168,9 @@ html{
 }
 
 .heading p{
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 35px;
+    line-height: 25px;
 }
 
 .container{
@@ -223,6 +226,7 @@ html{
 .aboutContent p{
     font-size: 12px;
     line-height: 1.5;
+    text-align: left;
 }
 
 .conBut {
@@ -294,7 +298,7 @@ html{
 .socialLinksFooter a {
   color: white;
   margin: 0 10px;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   padding: 10px;
   border-radius: 50%;
   font-size: 18px;
